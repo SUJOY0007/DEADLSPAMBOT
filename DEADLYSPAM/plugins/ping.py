@@ -20,7 +20,8 @@ hl = config.CMD_HNDLR
 async def ping(event):
     if event.sender_id in SUDOERS:
         start = datetime.now()
-        text = await event.reply(f"» ᴘᴏɴɢ!", parse_mode=None, link_preview=None)
+        text = await event.reply(f"» 𝗭𝗜𝗡𝗗𝗔 𝗛𝗨!", parse_mode=None, link_preview=None)
         end = datetime.now()
         result = (end - start).microseconds / 1000
-        await text.edit(f"» ᴅᴇᴀᴅʟʏ ꜱᴘᴀᴍʙᴏᴛ 🔥\n\n💫 ᴘᴏɴɢ: {result} ms🥀`")
+        await text.edit(f"» 🎉 𝗕𝗛𝗢𝗦𝗗𝗜𝗪𝗔𝗟𝗔 ✘𝗦𝗣𝗔𝗠 🤖!
+ 😈𝙍𝙀𝘼𝘿𝙔 𝙁𝙊𝙍 𝙎𝙀𝙈𝙓🤧 🔥\n\n💫 ᴘᴏɴɢ: {result} ms🥀`")
