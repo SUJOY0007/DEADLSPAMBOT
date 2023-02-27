@@ -6,15 +6,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "12737786"))
+API_HASH = getenv("API_HASH", "6ebdc1565ff4792d1f286d4e6698c945")
 
 # ADMIN DETAILS (Your ID) 
-OWNER_ID = int(getenv("OWNER_ID", ""))
+OWNER_ID = int(getenv("OWNER_ID", "5327845950"))
 
-OWNER_NAME = getenv("OWNER_NAME") 
+OWNER_NAME = getenv("OWNER_NAME", "𝐒𝐏𝐀𝐑𝐊𝐈") 
 SUDO_USER= list(
-    map(int, getenv("SUDO_USER", "5937170640").split())
+    map(int, getenv("SUDO_USER", "5327845950").split())
 )
 # BOT TOKEN CONFIG VARS (get all vars detail from @botfather) 
 BOT_TOKEN = getenv("BOT_TOKEN", None) 
