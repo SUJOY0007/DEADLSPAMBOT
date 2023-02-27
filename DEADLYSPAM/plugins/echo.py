@@ -28,7 +28,7 @@ async def echo(event):
             reply_msg = await event.get_reply_message()
             user_id = reply_msg.sender_id
             if int(user_id) in DEADLYSPAM:
-                    text = "**ᴄᴀɴɴᴏᴛ ᴇᴄʜᴏ ᴏɴ ᴅᴇᴀᴅʟʏ-ꜱᴘᴀᴍʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ !**"
+                    text = "**ᴄᴀɴɴᴏᴛ ᴇᴄʜᴏ ᴏɴ sᴘᴀʀʟʏ-ꜱᴘᴀᴍʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ !**"
                     await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == config.OWNER_ID:
                     text = f"ᴄᴀɴɴᴏᴛ ᴇᴄʜᴏ ᴏɴ ᴏᴡɴᴇʀ !"
@@ -63,7 +63,7 @@ async def echo(event):
             chat_id = event.chat_id
             if int(user_id) in ECHOUSER:
                 ECHOUSER.remove(user_id) 
-                await event.reply("ᴇᴄʜᴏ ʀᴇᴍᴏᴠᴇᴅ  ☑️")
+                await event.reply("ᴇᴄʜᴏ ʀᴇᴍᴏᴠᴇᴅ ☑️")
             else:
                 await event.reply("ᴜꜱᴇʀ ɴᴏᴛ ɪɴ ᴇᴄʜᴏ ʟɪꜱᴛ !!")
      else:
