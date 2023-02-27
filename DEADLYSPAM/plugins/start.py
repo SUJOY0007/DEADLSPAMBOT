@@ -10,23 +10,23 @@ ALIVE_IMG = config.ALIVE_PIC
 if config.ALIVE_PIC:
     DEADLY_IMG = ALIVE_IMG
 else:
-    DEADLY_IMG = "https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg"
+    DEADLY_IMG = "https://telegra.ph//file/e752a752e078ea53204aa.jpg"
 
 OWNER_INFO = config.OWNER_NAME
 if config.OWNER_NAME:
     OWNER_NAME = OWNER_INFO
 else:
-    OWNER_NAME = "DEADLY-USER"
+    OWNER_NAME = "SPARKY FIGHTER"
 
 OWNER_ID = config.OWNER_ID
 
 Deadly_Button = [
         [
-        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/Deadly_spambot"),
-        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/Deadly_spam_bot")
+        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/FUCKER_KIDSS"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/CRACK_FIGHTER_ON_FIRE")
         ],
         [
-        Button.url("• Rᴇᴘᴏ •", "https://github.com/Team-Deadly/DEADLY-SPAMBOT")
+        Button.url("• Rᴇᴘᴏ •", "https://te.legra.ph/file/db7c6b18567b5e81165ad.mp4")
         ]
         ]
         
@@ -50,10 +50,10 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[🇧𝙻𝙰𝚉𝙴](tg://user?id={5256676062})"
+        creator = f"[𝐒𝐏𝐀𝐑𝐊𝐈](tg://user?id={5327845950})"
         DEADLY_ON = f"""
 ʜᴇʏ {mention},
-ᴛʜɪs ɪs ᴅᴇᴀᴅʟʏ sᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
+ᴛʜɪs ɪs sᴘᴀʀᴋʏ sᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
 
 ᴛʜɪs ʙᴏᴛ ᴏᴡɴᴇʀ:- {myOwner}
 
