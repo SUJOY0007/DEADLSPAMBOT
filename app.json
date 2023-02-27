@@ -1,8 +1,8 @@
 
 {
-    "name": "Deadly Spam Bot",
+    "name": "Sparky Spam Bot",
     "description": "MOST POWERFUL + STABLE SPAMBOTS",
-    "logo": "https://te.legra.ph/file/84ad5652688b46626164e.jpg",
+    "logo": "https://telegra.ph//file/e752a752e078ea53204aa.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -10,9 +10,9 @@
         "deadlybot",
         "SpamBots"
     ],
-    "repository": "https://t.me/Deadly-Fighters",
-    "website": "https://t.me/Deadly-Fighters",
-    "success_url": "https://t.me/deadly-fighters",
+    "repository": "https://t.me/OWNER_IND_FYTERS",
+    "website": "https://t.me/OWNER_IND_FYTERS",
+    "success_url": "https://t.me/OWNER_IND_FYTERS",
     "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
@@ -21,7 +21,7 @@
       },
       "ALIVE_PIC": {
         "description": "your alive pic or video",
-        "value": "",
+        "value": "https://telegra.ph//file/e752a752e078ea53204aa.jpg",
         "required": false
       },
       "API_HASH": {
@@ -31,7 +31,7 @@
       },
      "CMD_HNDLR": {
             "description": "Custom command handler.",
-            "value": "!",
+            "value": ".",
             "required": false
         },
       "BOT_TOKEN": {
@@ -62,27 +62,27 @@
       "BOT_TOKEN6": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN7": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN8": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN9": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN10": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "OWNER_ID": {
             "description": "owner Id",
